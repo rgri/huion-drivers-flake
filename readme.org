@@ -1,0 +1,22 @@
+#+title: Readme
+This repo is incomplete and nonfunctional as of [2023-06-26 Mon 14:30]. If you happen to find this and want to help, feel free to open an issue.
+* Brainstorming
+
+** Where to install the extracted files
+*** Make udev rules
+#+begin_quote
+    If you just need a single udev rule set up and don’t mind using a different method, there is a attribute you can set in your configuration.nix file called services.udev.extraRules. It takes a string but you can create multiple rules there.
+
+      services.udev.extraRules = ''
+        # Your rule goes here
+      '';
+
+    The issue may be that the rule has a hardcoded path to /sbin/udevcontrol in it based on the error message you’ve shown, where as you would want to refer to the derivation when writing the rule if you need to execute a particular program. That’s just a guess on my part, usually there are rewrite tools that kick in automatically but they may not extend to this context.[fn:1]
+#+end_quote
+*** [?] Maybe move =/usr/= dirs into =/out/=?
+:LOGBOOK:
+- State "[?]"        from              [2023-06-26 Mon 14:22]
+:END:
+* Footnotes
+
+[fn:1] https://discourse.nixos.org/t/creating-a-custom-udev-rule/14569
