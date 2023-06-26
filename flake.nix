@@ -1,13 +1,13 @@
 {
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    deb.url = ./driver.deb;
+    deb.url = "file+file://driver.deb";
     deb.flake = false;
   };
   outputs = { self, ... }@inp:
     let
       pkgs = inp.nixpkgs.legacyPackages.x86_64-linux;
-      buildStuff = [ ];
+      buildStuff = with pkgs; [ autoPatchelfHook dpkg ];
     in with {
       inherit pkgs;
       inherit inp;
@@ -23,7 +23,10 @@
         out = src;
         buildInputs = buildStuff;
         nativeBuildInputs = buildstuff;
-
+        installPhase = ''
+          mkdir -p $out
+          dpkg -x $src $out
+        '';
       };
     };
 }
