@@ -1,0 +1,733 @@
+@nix { "action": "setPhase", "phase": "unpackPhase" }
+unpacking sources
+@nix { "action": "setPhase", "phase": "patchPhase" }
+patching sources
+@nix { "action": "setPhase", "phase": "configurePhase" }
+configuring
+no configure script, doing nothing
+@nix { "action": "setPhase", "phase": "buildPhase" }
+building
+no Makefile or custom buildPhase, doing nothing
+@nix { "action": "setPhase", "phase": "installPhase" }
+installing
+@nix { "action": "setPhase", "phase": "fixupPhase" }
+post-installation fixup
+shrinking RPATHs of ELF executables and libraries in /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/huiontablet
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQml/StateMachine/libqtqmlstatemachine.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQml/Models.2/libmodelsplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQml/RemoteObjects/libqtqmlremoteobjects.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQml/WorkerScript.2/libworkerscriptplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQml/libqmlplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick.2/libqtquick2plugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/Qt/labs/platform/libqtlabsplatformplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Timeline/libqtquicktimelineplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Dialogs/libdialogplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Dialogs/Private/libdialogsprivateplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Scene2D/libqtquickscene2dplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Controls/libqtquickcontrolsplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Controls/Styles/Flat/libqtquickextrasflatplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/PrivateWidgets/libwidgetsplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Extras/libqtquickextrasplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Window.2/libwindowplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Shapes/libqmlshapesplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Templates.2/libqtquicktemplates2plugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Scene3D/libqtquickscene3dplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Layouts/libqquicklayoutsplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Particles.2/libparticlesplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/XmlListModel/libqmlxmllistmodelplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Controls.2/Universal/libqtquickcontrols2universalstyleplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Controls.2/Fusion/libqtquickcontrols2fusionstyleplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Controls.2/libqtquickcontrols2plugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Controls.2/Material/libqtquickcontrols2materialstyleplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Controls.2/Imagine/libqtquickcontrols2imaginestyleplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/LocalStorage/libqmllocalstorageplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/VirtualKeyboard/libqtquickvirtualkeyboardplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/VirtualKeyboard/Settings/libqtquickvirtualkeyboardsettingsplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/VirtualKeyboard/Styles/libqtquickvirtualkeyboardstylesplugin.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/platforms/libqxcb.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5Network.so.5
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5Core.so.5
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5QmlModels.so.5
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libicuuc.so.56
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libTabletSession.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libhuionhid.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libicudata.so.56
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5XcbQpa.so.5
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQtSessionLib.so.1.0.0
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libcfgio.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5Qml.so.5
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5QuickTemplates2.so.5
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libicui18n.so.56
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libhnusb.so.0
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5QuickControls2.so.5
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5DBus.so.5
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libhidapi-libusb.so.0
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5QmlWorkerScript.so.5
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5Quick.so.5
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5Widgets.so.5
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5X11Extras.so.5.15.2
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libTabletSession.so_pc
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libXrender.so.1.3.0
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5Gui.so.5
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/huionCore
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/imageformats/libqgif.so
+shrinking /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/imageformats/libqjpeg.so
+checking for references to /build/ in /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver...
+patching script interpreter paths in /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver
+/nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/huiontablet.sh: interpreter directive changed from "#!/bin/bash" to "/nix/store/mh1c3p23xby3chc3q0c0g78fa1nn65yw-bash-5.2-p15/bin/bash"
+/nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/huionCore.sh: interpreter directive changed from "#!/bin/bash" to "/nix/store/mh1c3p23xby3chc3q0c0g78fa1nn65yw-bash-5.2-p15/bin/bash"
+stripping (with command strip and flags -S -p) in  /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/lib
+automatically fixing dependencies for ELF files
+{'append_rpaths': [],
+ 'ignore_missing': [],
+ 'libs': [PosixPath('/nix/store/a3qqq4gsp5c4gzwys3d7xmk0ryvm6509-qt3d-5.15.9/lib'),
+          PosixPath('/nix/store/sgx2ipqbz199q1igf0xisi40y6wkv8g8-qtgamepad-5.15.9/lib'),
+          PosixPath('/nix/store/iqh1jfvb587ja35q9z4sx17mdsmq6n31-qtvirtualkeyboard-5.15.9/lib'),
+          PosixPath('/nix/store/5vn1qrh0dh60i3hnc87adsq5llxjxzyc-qtbase-6.5.1/lib'),
+          PosixPath('/nix/store/wgzhw8dxciginyalxf1ikqpdihnlhqyb-auto-patchelf-hook/lib'),
+          PosixPath('/nix/store/8kfx5qh4kraggz5ssymijf23za7cn062-binutils-wrapper-2.40/lib'),
+          PosixPath('/nix/store/bmc4hv80ycaq5jr2vsvw9h3c3kqf8y7q-dpkg-1.21.22/lib'),
+          PosixPath('/nix/store/qnhxqzl7m0zkxqvcva3ws0rnki4bwyky-patchelf-0.15.0/lib'),
+          PosixPath('/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh/lib'),
+          PosixPath('/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh/lib'),
+          PosixPath('/nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh/lib'),
+          PosixPath('/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh/lib'),
+          PosixPath('/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh/lib'),
+          PosixPath('/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh/lib'),
+          PosixPath('/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh/lib'),
+          PosixPath('/nix/store/bxsly8a56yb8kyrq03s82a3vyc8fqrb3-multiple-outputs.sh/lib'),
+          PosixPath('/nix/store/nf1lkdrhapsx5lr6diyxyjr7pb7r20gr-patch-shebangs.sh/lib'),
+          PosixPath('/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh/lib'),
+          PosixPath('/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh/lib'),
+          PosixPath('/nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh/lib'),
+          PosixPath('/nix/store/a9ndjg0b1ivi0av9m93vfkrndp7fqbw1-strip.sh/lib'),
+          PosixPath('/nix/store/8phn3d072kcfvwvf6p5ys8pk8yxh236x-gcc-wrapper-12.3.0/lib'),
+          PosixPath('/nix/store/h38wry0vp16pr5bk3iykaf1bhsgm8zyp-binutils-wrapper-2.40/lib'),
+          PosixPath('/nix/store/a3qqq4gsp5c4gzwys3d7xmk0ryvm6509-qt3d-5.15.9/lib'),
+          PosixPath('/nix/store/sgx2ipqbz199q1igf0xisi40y6wkv8g8-qtgamepad-5.15.9/lib'),
+          PosixPath('/nix/store/iqh1jfvb587ja35q9z4sx17mdsmq6n31-qtvirtualkeyboard-5.15.9/lib'),
+          PosixPath('/nix/store/5vn1qrh0dh60i3hnc87adsq5llxjxzyc-qtbase-6.5.1/lib'),
+          PosixPath('/nix/store/wgzhw8dxciginyalxf1ikqpdihnlhqyb-auto-patchelf-hook/lib'),
+          PosixPath('/nix/store/8kfx5qh4kraggz5ssymijf23za7cn062-binutils-wrapper-2.40/lib'),
+          PosixPath('/nix/store/bmc4hv80ycaq5jr2vsvw9h3c3kqf8y7q-dpkg-1.21.22/lib'),
+          PosixPath('/nix/store/qnhxqzl7m0zkxqvcva3ws0rnki4bwyky-patchelf-0.15.0/lib'),
+          PosixPath('/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh/lib'),
+          PosixPath('/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh/lib'),
+          PosixPath('/nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh/lib'),
+          PosixPath('/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh/lib'),
+          PosixPath('/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh/lib'),
+          PosixPath('/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh/lib'),
+          PosixPath('/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh/lib'),
+          PosixPath('/nix/store/bxsly8a56yb8kyrq03s82a3vyc8fqrb3-multiple-outputs.sh/lib'),
+          PosixPath('/nix/store/nf1lkdrhapsx5lr6diyxyjr7pb7r20gr-patch-shebangs.sh/lib'),
+          PosixPath('/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh/lib'),
+          PosixPath('/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh/lib'),
+          PosixPath('/nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh/lib'),
+          PosixPath('/nix/store/a9ndjg0b1ivi0av9m93vfkrndp7fqbw1-strip.sh/lib'),
+          PosixPath('/nix/store/8phn3d072kcfvwvf6p5ys8pk8yxh236x-gcc-wrapper-12.3.0/lib'),
+          PosixPath('/nix/store/h38wry0vp16pr5bk3iykaf1bhsgm8zyp-binutils-wrapper-2.40/lib'),
+          PosixPath('/nix/store/a3qqq4gsp5c4gzwys3d7xmk0ryvm6509-qt3d-5.15.9/lib'),
+          PosixPath('/nix/store/sgx2ipqbz199q1igf0xisi40y6wkv8g8-qtgamepad-5.15.9/lib'),
+          PosixPath('/nix/store/iqh1jfvb587ja35q9z4sx17mdsmq6n31-qtvirtualkeyboard-5.15.9/lib'),
+          PosixPath('/nix/store/5vn1qrh0dh60i3hnc87adsq5llxjxzyc-qtbase-6.5.1/lib'),
+          PosixPath('/nix/store/wgzhw8dxciginyalxf1ikqpdihnlhqyb-auto-patchelf-hook/lib'),
+          PosixPath('/nix/store/8kfx5qh4kraggz5ssymijf23za7cn062-binutils-wrapper-2.40/lib'),
+          PosixPath('/nix/store/bmc4hv80ycaq5jr2vsvw9h3c3kqf8y7q-dpkg-1.21.22/lib'),
+          PosixPath('/nix/store/qnhxqzl7m0zkxqvcva3ws0rnki4bwyky-patchelf-0.15.0/lib'),
+          PosixPath('/nix/store/h9lc1dpi14z7is86ffhl3ld569138595-audit-tmpdir.sh/lib'),
+          PosixPath('/nix/store/m54bmrhj6fqz8nds5zcj97w9s9bckc9v-compress-man-pages.sh/lib'),
+          PosixPath('/nix/store/wgrbkkaldkrlrni33ccvm3b6vbxzb656-make-symlinks-relative.sh/lib'),
+          PosixPath('/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh/lib'),
+          PosixPath('/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh/lib'),
+          PosixPath('/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh/lib'),
+          PosixPath('/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh/lib'),
+          PosixPath('/nix/store/bxsly8a56yb8kyrq03s82a3vyc8fqrb3-multiple-outputs.sh/lib'),
+          PosixPath('/nix/store/nf1lkdrhapsx5lr6diyxyjr7pb7r20gr-patch-shebangs.sh/lib'),
+          PosixPath('/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh/lib'),
+          PosixPath('/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh/lib'),
+          PosixPath('/nix/store/ngg1cv31c8c7bcm2n8ww4g06nq7s4zhm-set-source-date-epoch-to-latest.sh/lib'),
+          PosixPath('/nix/store/a9ndjg0b1ivi0av9m93vfkrndp7fqbw1-strip.sh/lib'),
+          PosixPath('/nix/store/8phn3d072kcfvwvf6p5ys8pk8yxh236x-gcc-wrapper-12.3.0/lib'),
+          PosixPath('/nix/store/h38wry0vp16pr5bk3iykaf1bhsgm8zyp-binutils-wrapper-2.40/lib')],
+ 'paths': [PosixPath('/nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver')],
+ 'recursive': True,
+ 'runtime_dependencies': []}
+setting interpreter of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/huiontablet
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/huiontablet
+    libX11.so.6 -> found: /nix/store/nwym4ys464vziikfjwmc9ngamcfaygvm-libX11-1.8.4/lib
+    libXrandr.so.2 -> not found!
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Widgets.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5DBus.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/nwym4ys464vziikfjwmc9ngamcfaygvm-libX11-1.8.4/lib:/nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting interpreter of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/huionCore
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/huionCore
+    libhuionhid.so -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libX11.so.6 -> found: /nix/store/nwym4ys464vziikfjwmc9ngamcfaygvm-libX11-1.8.4/lib
+    libXrandr.so.2 -> not found!
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/nwym4ys464vziikfjwmc9ngamcfaygvm-libX11-1.8.4/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQml/libqmlplugin.so
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQml/StateMachine/libqtqmlstatemachine.so
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQml/Models.2/libmodelsplugin.so
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQml/RemoteObjects/libqtqmlremoteobjects.so
+    libQt5RemoteObjects.so.5 -> not found!
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQml/WorkerScript.2/libworkerscriptplugin.so
+    libQt5QmlWorkerScript.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick.2/libqtquick2plugin.so
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlWorkerScript.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/Qt/labs/platform/libqtlabsplatformplugin.so
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Widgets.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Timeline/libqtquicktimelineplugin.so
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Dialogs/libdialogplugin.so
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Dialogs/Private/libdialogsprivateplugin.so
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Scene2D/libqtquickscene2dplugin.so
+    libQt53DQuickScene2D.so.5 -> found: /nix/store/a3qqq4gsp5c4gzwys3d7xmk0ryvm6509-qt3d-5.15.9/lib
+    libQt53DRender.so.5 -> found: /nix/store/a3qqq4gsp5c4gzwys3d7xmk0ryvm6509-qt3d-5.15.9/lib
+    libQt53DInput.so.5 -> found: /nix/store/a3qqq4gsp5c4gzwys3d7xmk0ryvm6509-qt3d-5.15.9/lib
+    libQt53DLogic.so.5 -> found: /nix/store/a3qqq4gsp5c4gzwys3d7xmk0ryvm6509-qt3d-5.15.9/lib
+    libQt53DQuick.so.5 -> found: /nix/store/a3qqq4gsp5c4gzwys3d7xmk0ryvm6509-qt3d-5.15.9/lib
+    libQt53DCore.so.5 -> found: /nix/store/a3qqq4gsp5c4gzwys3d7xmk0ryvm6509-qt3d-5.15.9/lib
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gamepad.so.5 -> found: /nix/store/sgx2ipqbz199q1igf0xisi40y6wkv8g8-qtgamepad-5.15.9/lib
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Concurrent.so.5 -> found: /nix/store/ss4lg8khlg3s3qz02sa4934hvpqb76b9-qtbase-5.15.9/lib
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/a3qqq4gsp5c4gzwys3d7xmk0ryvm6509-qt3d-5.15.9/lib:/nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/sgx2ipqbz199q1igf0xisi40y6wkv8g8-qtgamepad-5.15.9/lib:/nix/store/ss4lg8khlg3s3qz02sa4934hvpqb76b9-qtbase-5.15.9/lib:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Controls/libqtquickcontrolsplugin.so
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Widgets.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Controls/Styles/Flat/libqtquickextrasflatplugin.so
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/PrivateWidgets/libwidgetsplugin.so
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Widgets.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Extras/libqtquickextrasplugin.so
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Window.2/libwindowplugin.so
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Shapes/libqmlshapesplugin.so
+    libQt5QuickShapes.so.5 -> found: /nix/store/l66j5wck7irkwgkv8hv8cnjy60r22s03-qtdeclarative-5.15.9/lib
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/l66j5wck7irkwgkv8hv8cnjy60r22s03-qtdeclarative-5.15.9/lib:/nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Templates.2/libqtquicktemplates2plugin.so
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libQt5QuickTemplates2.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Scene3D/libqtquickscene3dplugin.so
+    libQt53DAnimation.so.5 -> found: /nix/store/a3qqq4gsp5c4gzwys3d7xmk0ryvm6509-qt3d-5.15.9/lib
+    libQt53DRender.so.5 -> found: /nix/store/a3qqq4gsp5c4gzwys3d7xmk0ryvm6509-qt3d-5.15.9/lib
+    libQt53DInput.so.5 -> found: /nix/store/a3qqq4gsp5c4gzwys3d7xmk0ryvm6509-qt3d-5.15.9/lib
+    libQt53DLogic.so.5 -> found: /nix/store/a3qqq4gsp5c4gzwys3d7xmk0ryvm6509-qt3d-5.15.9/lib
+    libQt53DCore.so.5 -> found: /nix/store/a3qqq4gsp5c4gzwys3d7xmk0ryvm6509-qt3d-5.15.9/lib
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gamepad.so.5 -> found: /nix/store/sgx2ipqbz199q1igf0xisi40y6wkv8g8-qtgamepad-5.15.9/lib
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Concurrent.so.5 -> found: /nix/store/ss4lg8khlg3s3qz02sa4934hvpqb76b9-qtbase-5.15.9/lib
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/a3qqq4gsp5c4gzwys3d7xmk0ryvm6509-qt3d-5.15.9/lib:/nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/sgx2ipqbz199q1igf0xisi40y6wkv8g8-qtgamepad-5.15.9/lib:/nix/store/ss4lg8khlg3s3qz02sa4934hvpqb76b9-qtbase-5.15.9/lib:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Layouts/libqquicklayoutsplugin.so
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Particles.2/libparticlesplugin.so
+    libQt5QuickParticles.so.5 -> found: /nix/store/l66j5wck7irkwgkv8hv8cnjy60r22s03-qtdeclarative-5.15.9/lib
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/l66j5wck7irkwgkv8hv8cnjy60r22s03-qtdeclarative-5.15.9/lib:/nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/XmlListModel/libqmlxmllistmodelplugin.so
+    libQt5XmlPatterns.so.5 -> not found!
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Controls.2/libqtquickcontrols2plugin.so
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libQt5QuickTemplates2.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QuickControls2.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Controls.2/Universal/libqtquickcontrols2universalstyleplugin.so
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libQt5QuickTemplates2.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QuickControls2.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Controls.2/Fusion/libqtquickcontrols2fusionstyleplugin.so
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libQt5QuickTemplates2.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QuickControls2.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Controls.2/Material/libqtquickcontrols2materialstyleplugin.so
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libQt5QuickTemplates2.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QuickControls2.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/Controls.2/Imagine/libqtquickcontrols2imaginestyleplugin.so
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libQt5QuickTemplates2.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QuickControls2.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/LocalStorage/libqmllocalstorageplugin.so
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Sql.so.5 -> found: /nix/store/ss4lg8khlg3s3qz02sa4934hvpqb76b9-qtbase-5.15.9/lib
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/ss4lg8khlg3s3qz02sa4934hvpqb76b9-qtbase-5.15.9/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/VirtualKeyboard/libqtquickvirtualkeyboardplugin.so
+    libQt5VirtualKeyboard.so.5 -> found: /nix/store/iqh1jfvb587ja35q9z4sx17mdsmq6n31-qtvirtualkeyboard-5.15.9/lib
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/iqh1jfvb587ja35q9z4sx17mdsmq6n31-qtvirtualkeyboard-5.15.9/lib:/nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/VirtualKeyboard/Settings/libqtquickvirtualkeyboardsettingsplugin.so
+    libQt5VirtualKeyboard.so.5 -> found: /nix/store/iqh1jfvb587ja35q9z4sx17mdsmq6n31-qtvirtualkeyboard-5.15.9/lib
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/iqh1jfvb587ja35q9z4sx17mdsmq6n31-qtvirtualkeyboard-5.15.9/lib:/nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/VirtualKeyboard/Styles/libqtquickvirtualkeyboardstylesplugin.so
+    libQt5VirtualKeyboard.so.5 -> found: /nix/store/iqh1jfvb587ja35q9z4sx17mdsmq6n31-qtvirtualkeyboard-5.15.9/lib
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Svg.so.5 -> not found!
+    libQt5Widgets.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/iqh1jfvb587ja35q9z4sx17mdsmq6n31-qtvirtualkeyboard-5.15.9/lib:/nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/platforms/libqxcb.so
+    libQt5XcbQpa.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libfontconfig.so.1 -> found: /nix/store/gxwsa0w5f8krfgwfk9axn58hpa6pbiy2-fontconfig-2.14.2-lib/lib
+    libfreetype.so.6 -> found: /nix/store/gkh0lkj9wmlkhbkkpf8fp7zjf1521pyl-freetype-2.13.0/lib
+    libz.so.1 -> found: /nix/store/s9zl0rv45yc3ymx61q6n97c3l7196pq4-zlib-1.2.13/lib
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5DBus.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libX11-xcb.so.1 -> found: /nix/store/nwym4ys464vziikfjwmc9ngamcfaygvm-libX11-1.8.4/lib
+    libxcb.so.1 -> found: /nix/store/99kyqdivq646j0w4smh2bfqd2pkrcrai-libxcb-1.14/lib
+    libXext.so.6 -> found: /nix/store/bnpy6ypmsi21gym32qj8yb26sbsmf8bq-libXext-1.3.4/lib
+    libX11.so.6 -> found: /nix/store/nwym4ys464vziikfjwmc9ngamcfaygvm-libX11-1.8.4/lib
+    libxkbcommon-x11.so.0 -> found: /nix/store/7p0m3l0k6w1h1x9z7lj2sy0yanfsglnc-libxkbcommon-1.5.0/lib
+    libxkbcommon.so.0 -> found: /nix/store/7p0m3l0k6w1h1x9z7lj2sy0yanfsglnc-libxkbcommon-1.5.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gxwsa0w5f8krfgwfk9axn58hpa6pbiy2-fontconfig-2.14.2-lib/lib:/nix/store/gkh0lkj9wmlkhbkkpf8fp7zjf1521pyl-freetype-2.13.0/lib:/nix/store/s9zl0rv45yc3ymx61q6n97c3l7196pq4-zlib-1.2.13/lib:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/nwym4ys464vziikfjwmc9ngamcfaygvm-libX11-1.8.4/lib:/nix/store/99kyqdivq646j0w4smh2bfqd2pkrcrai-libxcb-1.14/lib:/nix/store/bnpy6ypmsi21gym32qj8yb26sbsmf8bq-libXext-1.3.4/lib:/nix/store/7p0m3l0k6w1h1x9z7lj2sy0yanfsglnc-libxkbcommon-1.5.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5Network.so.5
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libz.so.1 -> found: /nix/store/s9zl0rv45yc3ymx61q6n97c3l7196pq4-zlib-1.2.13/lib
+    libgssapi_krb5.so.2 -> found: /nix/store/1lp76l54hjr466dk539qrpxyzjv07b0r-libkrb5-1.20.1/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/s9zl0rv45yc3ymx61q6n97c3l7196pq4-zlib-1.2.13/lib:/nix/store/1lp76l54hjr466dk539qrpxyzjv07b0r-libkrb5-1.20.1/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting interpreter of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5Core.so.5
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5Core.so.5
+    libz.so.1 -> found: /nix/store/s9zl0rv45yc3ymx61q6n97c3l7196pq4-zlib-1.2.13/lib
+    libicui18n.so.56 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libicuuc.so.56 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libicudata.so.56 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libgthread-2.0.so.0 -> found: /nix/store/cgmbz0wglid7v5m0m0a70ksvgyxppsgn-glib-2.76.3/lib
+    libglib-2.0.so.0 -> found: /nix/store/cgmbz0wglid7v5m0m0a70ksvgyxppsgn-glib-2.76.3/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/s9zl0rv45yc3ymx61q6n97c3l7196pq4-zlib-1.2.13/lib:/nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/cgmbz0wglid7v5m0m0a70ksvgyxppsgn-glib-2.76.3/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5QmlModels.so.5
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libicuuc.so.56
+    libicudata.so.56 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libTabletSession.so
+    libhnusb.so.0 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libusb-1.0.so.0 -> not found!
+    libsystemd.so.0 -> found: /nix/store/9adpz6y8s4mgkxfhc9rzy25r7f3wdyll-systemd-253.5/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/9adpz6y8s4mgkxfhc9rzy25r7f3wdyll-systemd-253.5/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libhuionhid.so
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libicudata.so.56
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5XcbQpa.so.5
+    libfontconfig.so.1 -> found: /nix/store/gxwsa0w5f8krfgwfk9axn58hpa6pbiy2-fontconfig-2.14.2-lib/lib
+    libfreetype.so.6 -> found: /nix/store/gkh0lkj9wmlkhbkkpf8fp7zjf1521pyl-freetype-2.13.0/lib
+    libz.so.1 -> found: /nix/store/s9zl0rv45yc3ymx61q6n97c3l7196pq4-zlib-1.2.13/lib
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5DBus.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libX11-xcb.so.1 -> found: /nix/store/nwym4ys464vziikfjwmc9ngamcfaygvm-libX11-1.8.4/lib
+    libxcb.so.1 -> found: /nix/store/99kyqdivq646j0w4smh2bfqd2pkrcrai-libxcb-1.14/lib
+    libXext.so.6 -> found: /nix/store/bnpy6ypmsi21gym32qj8yb26sbsmf8bq-libXext-1.3.4/lib
+    libX11.so.6 -> found: /nix/store/nwym4ys464vziikfjwmc9ngamcfaygvm-libX11-1.8.4/lib
+    libxkbcommon-x11.so.0 -> found: /nix/store/7p0m3l0k6w1h1x9z7lj2sy0yanfsglnc-libxkbcommon-1.5.0/lib
+    libxkbcommon.so.0 -> found: /nix/store/7p0m3l0k6w1h1x9z7lj2sy0yanfsglnc-libxkbcommon-1.5.0/lib
+    libgthread-2.0.so.0 -> found: /nix/store/cgmbz0wglid7v5m0m0a70ksvgyxppsgn-glib-2.76.3/lib
+    libglib-2.0.so.0 -> found: /nix/store/cgmbz0wglid7v5m0m0a70ksvgyxppsgn-glib-2.76.3/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/gxwsa0w5f8krfgwfk9axn58hpa6pbiy2-fontconfig-2.14.2-lib/lib:/nix/store/gkh0lkj9wmlkhbkkpf8fp7zjf1521pyl-freetype-2.13.0/lib:/nix/store/s9zl0rv45yc3ymx61q6n97c3l7196pq4-zlib-1.2.13/lib:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/nwym4ys464vziikfjwmc9ngamcfaygvm-libX11-1.8.4/lib:/nix/store/99kyqdivq646j0w4smh2bfqd2pkrcrai-libxcb-1.14/lib:/nix/store/bnpy6ypmsi21gym32qj8yb26sbsmf8bq-libXext-1.3.4/lib:/nix/store/7p0m3l0k6w1h1x9z7lj2sy0yanfsglnc-libxkbcommon-1.5.0/lib:/nix/store/cgmbz0wglid7v5m0m0a70ksvgyxppsgn-glib-2.76.3/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQtSessionLib.so.1.0.0
+    libQt5DBus.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libcfgio.so
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5Qml.so.5
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5QuickTemplates2.so.5
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libicui18n.so.56
+    libicuuc.so.56 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libicudata.so.56 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libhnusb.so.0
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5QuickControls2.so.5
+    libQt5Quick.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5QuickTemplates2.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5DBus.so.5
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libdbus-1.so.3 -> found: /nix/store/204j1yqxw4iin087p53x9jg5pa02yr65-dbus-1.14.8-lib/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/204j1yqxw4iin087p53x9jg5pa02yr65-dbus-1.14.8-lib/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libhidapi-libusb.so.0
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5QmlWorkerScript.so.5
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5Quick.so.5
+    libQt5QmlModels.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Qml.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Network.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5Widgets.so.5
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5X11Extras.so.5.15.2
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libTabletSession.so_pc
+    libhnusb.so.0 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libusb-1.0.so.0 -> not found!
+    libsystemd.so.0 -> found: /nix/store/9adpz6y8s4mgkxfhc9rzy25r7f3wdyll-systemd-253.5/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/9adpz6y8s4mgkxfhc9rzy25r7f3wdyll-systemd-253.5/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libXrender.so.1.3.0
+    libX11.so.6 -> found: /nix/store/nwym4ys464vziikfjwmc9ngamcfaygvm-libX11-1.8.4/lib
+setting RPATH to: /nix/store/nwym4ys464vziikfjwmc9ngamcfaygvm-libX11-1.8.4/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libQt5Gui.so.5
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libz.so.1 -> found: /nix/store/s9zl0rv45yc3ymx61q6n97c3l7196pq4-zlib-1.2.13/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/s9zl0rv45yc3ymx61q6n97c3l7196pq4-zlib-1.2.13/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/imageformats/libqgif.so
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+searching for dependencies of /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/imageformats/libqjpeg.so
+    libQt5Gui.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libQt5Core.so.5 -> found: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs
+    libGL.so.1 -> found: /nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib
+    libstdc++.so.6 -> found: /nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib
+    libgcc_s.so.1 -> found: /nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+setting RPATH to: /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs:/nix/store/gx7s27xmdyhn66975q9hymq0dqbx640c-libGL-1.6.0/lib:/nix/store/75622q2wranjp6zl81ldq5j54s788dqz-gcc-12.3.0-lib/lib:/nix/store/d4wb4vw0i85xyy7qs82l4s4mr2yigvc9-gcc-12.3.0-libgcc/lib
+auto-patchelf: 7 dependencies could not be satisfied
+error: auto-patchelf could not satisfy dependency libXrandr.so.2 wanted by /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/huiontablet
+error: auto-patchelf could not satisfy dependency libXrandr.so.2 wanted by /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/huionCore
+error: auto-patchelf could not satisfy dependency libQt5RemoteObjects.so.5 wanted by /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQml/RemoteObjects/libqtqmlremoteobjects.so
+error: auto-patchelf could not satisfy dependency libQt5XmlPatterns.so.5 wanted by /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/XmlListModel/libqmlxmllistmodelplugin.so
+error: auto-patchelf could not satisfy dependency libQt5Svg.so.5 wanted by /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQuick/VirtualKeyboard/Styles/libqtquickvirtualkeyboardstylesplugin.so
+error: auto-patchelf could not satisfy dependency libusb-1.0.so.0 wanted by /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libTabletSession.so
+error: auto-patchelf could not satisfy dependency libusb-1.0.so.0 wanted by /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/libs/libTabletSession.so_pc
+auto-patchelf failed to find all the required dependencies.
+Add the missing dependencies to --libs or use `--ignore-missing="foo.so.1 bar.so etc.so"`.
+/nix/store/j0xzghjmynydvw37zihdbw598j0iwly9-stdenv-linux/setup: line 87: pop_var_context: head of shell_variables not a function context
+/nix/store/j0xzghjmynydvw37zihdbw598j0iwly9-stdenv-linux/setup: line 1459: pop_var_context: head of shell_variables not a function context
+/nix/store/j0xzghjmynydvw37zihdbw598j0iwly9-stdenv-linux/setup: line 1596: pop_var_context: head of shell_variables not a function context
