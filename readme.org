@@ -25,6 +25,7 @@ This repo is incomplete and nonfunctional as of [2023-06-26 Mon 14:30]. If you h
   #+begin_src bash
 error: auto-patchelf could not satisfy dependency libQt5RemoteObjects.so.5 wanted by /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQml/RemoteObjects/libqtqmlremoteobjects.so
   #+end_src
+  Maybe try to copy the packaging style of [[https://search.nixos.org/packages?channel=unstable&show=qt6.qtremoteobjects&from=0&size=50&sort=relevance&type=packages&query=remote+objects+qt][qt6's version]]?
 
 * Footnotes
 
