@@ -31,6 +31,7 @@ error: auto-patchelf could not satisfy dependency libQt5RemoteObjects.so.5 wante
   According to the discord, this is a consequence of a missing package in nixpkgs.[fn:2]
 
 
+  Maybe try to copy the packaging style of [[https://search.nixos.org/packages?channel=unstable&show=qt6.qtremoteobjects&from=0&size=50&sort=relevance&type=packages&query=remote+objects+qt][qt6's version]]?
 
 * Footnotes
 [fn:2] https://discord.com/channels/568306982717751326/570351749848891393/1123012159471878144
