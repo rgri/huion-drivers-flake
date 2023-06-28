@@ -21,11 +21,18 @@ This repo is incomplete and nonfunctional as of [2023-06-26 Mon 14:30]. If you h
 :LOGBOOK:
 - State "[?]"        from              [2023-06-26 Mon 16:12]
 :END:
-- [2023-06-26 Mon 16:12] Stuck on =libQt5RemoteObjects.so.5=
+**** TODO [2023-06-26 Mon 16:12]  Stuck on =libQt5RemoteObjects.so.5=
+:LOGBOOK:
+- State "TODO"       from              [2023-06-27 Tue 01:06]
+:END:
   #+begin_src bash
 error: auto-patchelf could not satisfy dependency libQt5RemoteObjects.so.5 wanted by /nix/store/1xanmzd7bgs8cfpg041jjm5gnk8m6b08-Huion-Kamvas-Driver/usr/lib/huiontablet/qml/QtQml/RemoteObjects/libqtqmlremoteobjects.so
   #+end_src
+  According to the discord, this is a consequence of a missing package in nixpkgs.[fn:2]
+
+
 
 * Footnotes
+[fn:2] https://discord.com/channels/568306982717751326/570351749848891393/1123012159471878144
 
 [fn:1] https://discourse.nixos.org/t/creating-a-custom-udev-rule/14569
