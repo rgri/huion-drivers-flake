@@ -39,6 +39,7 @@ in stdenv.mkDerivation {
     dpkg -x $src $out
     cp -av $out/usr/lib $out
     rm -rf $out/usr
+    chmod 755 $out
   '';
   desktopItems = [
     (makeDesktopItem {
