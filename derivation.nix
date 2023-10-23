@@ -30,15 +30,11 @@ stdenv.mkDerivation {
   # Required at running time
   buildInputs = with pkgs; [ libsForQt5.qt5.qtbase glibc gcc-unwrapped ];
 
-  unpackPhase = "true";
-
   # Extract and copy executable in $out/bin
   installPhase = ''
     mkdir -p $out
-    dpkg -x $src $out
-    cp -av $out/usr/lib $out
+    dpkg-deb -x $src $out
     chmod 755 $out
-    sed -i 's/\$dirname/./g' $out/usr/lib/huiontablet/huiontablet.sh
   '';
   desktopItems = [
     (makeDesktopItem {
