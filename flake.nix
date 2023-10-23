@@ -8,7 +8,9 @@
       let
         pkgs = nixpkgs.legacyPackages.${system};
         system = "x86_64-linux";
-      in {
+      in rec {
+        packages.huion-tablet = pkgs.callPackage ./derivation.nix { };
+        defaultPackage = packages.huion-tablet;
         devShells.default = pkgs.mkShell {
           packages = [
             pkgs.dpkg

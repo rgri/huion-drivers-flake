@@ -1,13 +1,12 @@
-{ stdenv, qtbase, wrapQtAppsHook, dpkg, glibc, gcc-unwrapped, autoPatchelfHook
-, makeDesktopItem, lib, libXrandr, libusb1, qt3d, qtgamepad, qtvirtualkeyboard
-, qtxmlpatterns, qtremoteobjects }:
+{ stdenv, pkgs ? import <nixpkgs> { } }:
 let
 
   version = "15.0.0.89.202205241352";
 
   src = ./HuionTablet_v15.0.0.89.202205241352.x86_64.deb;
 
-in stdenv.mkDerivation {
+in with pkgs;
+stdenv.mkDerivation {
   name = "HuionTablet_v15.0.0.89.202205241352.x86_64";
 
   system = "x86_64-linux";
@@ -15,21 +14,21 @@ in stdenv.mkDerivation {
   inherit src;
 
   # Required for compilation
-  nativeBuildInputs = [
+  nativeBuildInputs = with pkgs; [
     autoPatchelfHook # Automatically setup the loader, and do the magic
     dpkg
-    wrapQtAppsHook
-    libXrandr
+    libsForQt5.qt5.wrapQtAppsHook
+    xorg.libXrandr
     libusb1
-    qt3d
-    qtgamepad
-    qtvirtualkeyboard
-    qtxmlpatterns
-    qtremoteobjects
+    libsForQt5.qt5.qt3d
+    libsForQt5.qt5.qtgamepad
+    libsForQt5.qt5.qtvirtualkeyboard
+    libsForQt5.qt5.qtxmlpatterns
+    libsForQt5.qt5.qtremoteobjects
   ];
 
   # Required at running time
-  buildInputs = [ qtbase glibc gcc-unwrapped ];
+  buildInputs = with pkgs; [ libsForQt5.qt5.qtbase glibc gcc-unwrapped ];
 
   unpackPhase = "true";
 
@@ -38,22 +37,22 @@ in stdenv.mkDerivation {
     mkdir -p $out
     dpkg -x $src $out
     cp -av $out/usr/lib $out
-    rm -rf $out/usr
     chmod 755 $out
+    sed -i 's/\$dirname/./g' $out/usr/lib/huiontablet/huiontablet.sh
   '';
   desktopItems = [
     (makeDesktopItem {
       name = "HuionTablet";
       desktopName = "HuionTablet";
       comment = "Huion driver";
-      exec = "huiontablet.sh";
+      exec = "/usr/lib/huiontablet.sh";
       icon = "huiontablet.png";
       categories = [ "Application" "Utility" ];
       startupNotify = true;
     })
   ];
 
-  meta = with lib; {
+  meta = with pkgs.lib; {
     description = "Wolframscript";
     homepage = "https://www.wolfram.com/wolframscript/";
     license = licenses.mit;
